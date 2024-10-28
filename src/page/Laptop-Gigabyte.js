@@ -6,9 +6,9 @@ function Laptop() {
     return (
         <div className="bg-product">
             <div className="column return-box-product">
-                <strong><Link className="return-text" to="/">Home</Link></strong>/
-                <strong><Link className="return-text" to="/Laptop">Laptop</Link></strong>/
-                <Link className="return-text"></Link>Laptop Gigabyte
+                <strong><Link className="return-text custom-font" to="/">Home</Link></strong>/
+                <strong><Link className="return-text custom-font" to="/Laptop">Laptop</Link></strong>/
+                <Link className="return-text custom-font"></Link>Laptop Gigabyte
             </div>
             <div className="top-border-Laptop"></div>
             <div className="box-home-product">
@@ -22,17 +22,17 @@ function Laptop() {
 
                             </div>
                             <div className="card-text">
-                            <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Gigabyte-G6-KF-H3VN853SH"><p className="Name"><strong>Laptop gaming Gigabyte G6 KF H3VN853SH</strong></p></Link>
+                            <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Gigabyte-G6-KF-H3VN853SH"><p className="Name custom-font"><strong>Laptop gaming Gigabyte G6 KF H3VN853SH</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">i7-13620H</li>
-                                    <li className="li-home">RTX 4060</li>
-                                    <li className="li-home">16 GB</li>
-                                    <li className="li-home">512 GB</li>
-                                    <li className="li-home">16 inch FHD</li>
-                                    <li className="li-home">165 Hz</li>
+                                    <li className="li-home custom-font">i7-13620H</li>
+                                    <li className="li-home custom-font">RTX 4060</li>
+                                    <li className="li-home custom-font">16 GB</li>
+                                    <li className="li-home custom-font">512 GB</li>
+                                    <li className="li-home custom-font">16 inch FHD</li>
+                                    <li className="li-home custom-font">165 Hz</li>
                                 </ul>
-                                <p className="price">29.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">29.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>

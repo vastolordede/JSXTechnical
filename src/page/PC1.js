@@ -19,7 +19,7 @@ function PC() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>PC GVN x ASUS Advanced Ai (Intel Core Ultra 9 285K/ VGA RTX 4090)</strong></p>
                     <p className="price">143.630.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>CPU:</strong>Intel Core Ultra 9 285K / Turbo up to 5.7GHz / 24 Nhân 24 Luồng / 36MB / LGA 1851<br></br>
                         <strong>RAM:</strong>Corsair Dominator Platinum 64GB (2x32GB) RGB 6000 DDR5<br></br>

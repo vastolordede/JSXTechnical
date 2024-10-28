@@ -19,7 +19,7 @@ function PC() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>PC GVN AMD R5-5600X/ VGA RTX 3050 (Powered by ASUS)</strong></p>
                     <p className="price"></p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>CPU:</strong>AMD Ryzen 5 5600X / 32MB / 3.7GHz Boost 4.6GHz / 6 nhân 12 luồng<br></br>
                         <strong>RAM:</strong>T-Group T-Force Delta 1x8GB 3600 RGB Black x 2<br></br>

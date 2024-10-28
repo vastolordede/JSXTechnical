@@ -11,9 +11,9 @@ function Laptop() {
     return (
         <div className="bg-product">
             <div className="column return-box-product">
-                <strong><Link className="return-text" to="/">Home</Link></strong>/
-                <strong><Link className="return-text" to="/Laptop">Laptop</Link></strong>/
-                <Link className="return-text"></Link>Laptop Acer
+                <strong><Link className="return-text custom-font" to="/">Home</Link></strong>/
+                <strong><Link className="return-text custom-font" to="/Laptop">Laptop</Link></strong>/
+                <Link className="return-text custom-font"></Link>Laptop Acer
             </div>
             <div className="top-border-Laptop"></div>
             <div className="box-home-product">
@@ -26,17 +26,17 @@ function Laptop() {
                                 <Link to="/Laptop/Laptop-Acer-Acer-Nitro-V-ANV15-51-72VS"><img src={img1} className="img"></img></Link>
                             </div>
                             <div className="card-text">
-                                <Link className="text-nounderline-home" to="/Laptop/Laptop-Acer-Acer-Nitro-V-ANV15-51-72VS"><p className="Name"><strong>Laptop gaming Acer Nitro V ANV15 51 72VS</strong></p></Link>
+                                <Link className="text-nounderline-home" to="/Laptop/Laptop-Acer-Acer-Nitro-V-ANV15-51-72VS"><p className="Name custom-font"><strong>Laptop gaming Acer Nitro V ANV15 51 72VS</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">i7-13620H</li>
-                                    <li className="li-home">RTX 2050</li>
-                                    <li className="li-home">16 GB</li>
-                                    <li className="li-home">512 GB</li>
-                                    <li className="li-home">15.6 inch FHD</li>
-                                    <li className="li-home">144 Hz</li>
+                                    <li className="li-home custom-font">i7-13620H</li>
+                                    <li className="li-home custom-font">RTX 2050</li>
+                                    <li className="li-home custom-font">16 GB</li>
+                                    <li className="li-home custom-font">512 GB</li>
+                                    <li className="li-home custom-font">15.6 inch FHD</li>
+                                    <li className="li-home custom-font">144 Hz</li>
                                 </ul>
-                                <p className="price">25.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">25.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>
@@ -47,17 +47,17 @@ function Laptop() {
                                 <Link to="/Laptop/Laptop-gaming-Acer-Predator-Helios-Neo-16-PHN16-72-78DQ"><img src={img2} className="img"></img></Link>
                             </div>
                             <div className="card-text">
-                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Predator-Helios-Neo-16-PHN16-72-78DQ"><p className="Name"><strong>Laptop gaming Acer Predator Helios Neo 16 PHN16 72 78DQ</strong></p></Link>
+                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Predator-Helios-Neo-16-PHN16-72-78DQ"><p className="Name custom-font"><strong>Laptop gaming Acer Predator Helios Neo 16 PHN16 72 78DQ</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">i7-14650HX</li>
-                                    <li className="li-home">RTX 4060</li>
-                                    <li className="li-home">16 GB</li>
-                                    <li className="li-home">1 TB</li>
-                                    <li className="li-home">16 inch 2K</li>
-                                    <li className="li-home">240 Hz</li>
+                                    <li className="li-home custom-font">i7-14650HX</li>
+                                    <li className="li-home custom-font">RTX 4060</li>
+                                    <li className="li-home custom-font">16 GB</li>
+                                    <li className="li-home custom-font">1 TB</li>
+                                    <li className="li-home custom-font">16 inch 2K</li>
+                                    <li className="li-home custom-font">240 Hz</li>
                                 </ul>
-                                <p className="price">46.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">46.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>
@@ -68,16 +68,16 @@ function Laptop() {
                                 <Link to="/Laptop/Laptop-gaming-Acer-Nitro-V-ANV16-41-R36Y"><img src={img3} className="img"></img></Link>
                             </div>
                             <div className="card-text">
-                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Nitro-V-ANV16-41-R36Y"><p className="Name"><strong>Laptop gaming Acer Nitro V ANV16 41 R36Y</strong></p></Link>
+                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Nitro-V-ANV16-41-R36Y"><p className="Name custom-font"><strong>Laptop gaming Acer Nitro V ANV16 41 R36Y</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">RTX 4050</li>
-                                    <li className="li-home">16 GB</li>
-                                    <li className="li-home">512 GB</li>
-                                    <li className="li-home">16 inch WUXGA</li>
-                                    <li className="li-home">165 Hz</li>
+                                    <li className="li-home custom-font">RTX 4050</li>
+                                    <li className="li-home custom-font">16 GB</li>
+                                    <li className="li-home custom-font">512 GB</li>
+                                    <li className="li-home custom-font">16 inch WUXGA</li>
+                                    <li className="li-home custom-font">165 Hz</li>
                                 </ul>
-                                <p className="price">31.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">31.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>
@@ -88,17 +88,17 @@ function Laptop() {
                                 <Link to="/Laptop/Laptop-gaming-Acer-Predator-Helios-Neo-16-PHN16-71-53M7"><img src={img4} className="img"></img></Link>
                             </div>
                             <div className="card-text">
-                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Predator-Helios-Neo-16-PHN16-71-53M7"><p className="Name"><strong>Laptop gaming Acer Predator Helios Neo 16 PHN16 72 78DQ</strong></p></Link>
+                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Predator-Helios-Neo-16-PHN16-71-53M7"><p className="Name custom-font"><strong>Laptop gaming Acer Predator Helios Neo 16 PHN16 72 78DQ</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">i7-14650HX</li>
-                                    <li className="li-home">RTX 4060</li>
-                                    <li className="li-home">16 GB</li>
-                                    <li className="li-home">1 TB</li>
-                                    <li className="li-home">16 inch 2K</li>
-                                    <li className="li-home">240 Hz</li>
+                                    <li className="li-home custom-font">i7-14650HX</li>
+                                    <li className="li-home custom-font">RTX 4060</li>
+                                    <li className="li-home custom-font">16 GB</li>
+                                    <li className="li-home custom-font">1 TB</li>
+                                    <li className="li-home custom-font">16 inch 2K</li>
+                                    <li className="li-home custom-font">240 Hz</li>
                                 </ul>
-                                <p className="price">46.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">46.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>
@@ -109,17 +109,17 @@ function Laptop() {
                                 <Link to="/Laptop/Laptop-gaming-Acer-Predator-Helios-300-PH315-55-751D"><img src={img5} className="img"></img></Link>
                             </div>
                             <div className="card-text">
-                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Predator-Helios-300-PH315-55-751D"><p className="Name"><strong>Laptop gaming Acer Predator Helios 300 PH315 55 751D</strong></p></Link>
+                                <Link className="text-nounderline-home" to="/Laptop/Laptop-gaming-Acer-Predator-Helios-300-PH315-55-751D"><p className="Name custom-font"><strong>Laptop gaming Acer Predator Helios 300 PH315 55 751D</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">i7-12700H</li>
-                                    <li className="li-home">RTX 3070Ti</li>
-                                    <li className="li-home">16 GB</li>
-                                    <li className="li-home">512 GB</li>
-                                    <li className="li-home">15.6 inch QHD</li>
-                                    <li className="li-home">165 Hz</li>
+                                    <li className="li-home custom-font">i7-12700H</li>
+                                    <li className="li-home custom-font">RTX 3070Ti</li>
+                                    <li className="li-home custom-font">16 GB</li>
+                                    <li className="li-home custom-font">512 GB</li>
+                                    <li className="li-home custom-font">15.6 inch QHD</li>
+                                    <li className="li-home custom-font">165 Hz</li>
                                 </ul>
-                                <p className="price">59.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">59.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>
@@ -130,16 +130,16 @@ function Laptop() {
                                 <Link to="/Laptop/Laptop-Acer-Aspire-3-A315-510P-34XZ"><img src={img6} className="img"></img></Link>
                             </div>
                             <div className="card-text">
-                                <Link className="text-nounderline-home" to="/Laptop/Laptop-Acer-Aspire-3-A315-510P-34XZ"><p className="Name"><strong>Laptop Acer Aspire 3 A315 510P 34XZ</strong></p></Link>
+                                <Link className="text-nounderline-home" to="/Laptop/Laptop-Acer-Aspire-3-A315-510P-34XZ"><p className="Name custom-font"><strong>Laptop Acer Aspire 3 A315 510P 34XZ</strong></p></Link>
                                 <ul className="ulcontent">
-                                    <li className="li-home">i3-N305</li>
-                                    <li className="li-home">Onboard</li>
-                                    <li className="li-home">8 GB</li>
-                                    <li className="li-home">256 GB</li>
-                                    <li className="li-home">15.6 inch FHD</li>
+                                    <li className="li-home custom-font">i3-N305</li>
+                                    <li className="li-home custom-font">Onboard</li>
+                                    <li className="li-home custom-font">8 GB</li>
+                                    <li className="li-home custom-font">256 GB</li>
+                                    <li className="li-home custom-font">15.6 inch FHD</li>
                                 </ul>
-                                <p className="price">10.990.000₫</p>
-                                <button className="font addcart">Add To cart</button>
+                                <p className="price custom-font">10.990.000₫</p>
+                                <button className="font addcart custom-font">Add To cart</button>
                             </div>
                         </div>
                     </li>

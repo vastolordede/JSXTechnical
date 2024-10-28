@@ -19,7 +19,7 @@ function PC() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>PC GVN AMD R5-8400F/ VGA RX 7600</strong></p>
                     <p className="price">24.490.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>CPU:</strong>AMD Ryzen 5 8400F / 4.2GHz Boost 4.7GHz / 6 nhân 12 luồng / 22MB / AM5 (TRAY)<br></br>
                         <strong>RAM:</strong>Kingston Fury Beast RGB 16GB (2x8GB) bus 5600 DDR5 <br></br>

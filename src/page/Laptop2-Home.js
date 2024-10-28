@@ -6,9 +6,9 @@ function Laptop() {
     return (
         <div className="bg-Laptop-content">
             <div className="column return-box">
-                <strong><Link className="return-text" to="/">Home</Link></strong>/
-                <strong><Link className="return-text" to="/Laptop">Laptop</Link></strong>/
-                <Link className="return-text"></Link>Laptop gaming Gigabyte G6 KF H3VN853SH
+                <strong><Link className="return-text custom-font" to="/">Home</Link></strong>/
+                <strong><Link className="return-text custom-font" to="/Laptop">Laptop</Link></strong>/
+                <Link className="return-text custom-font"></Link>Laptop gaming Gigabyte G6 KF H3VN853SH
             </div>
             <div className="Laptop-content-box">
             <div className="top-border-Laptop-content"></div>
@@ -17,10 +17,10 @@ function Laptop() {
                     <Link to="/Laptop/Laptop-gaming-Gigabyte-G6-KF-H3VN853SH"><img src={img1} className="img"></img></Link>
                 </div>
                 <div className="card-text-product">
-                    <p className="title-product"><strong>Laptop gaming Gigabyte G6 KF H3VN853SH</strong></p>
-                    <p className="price">29.990.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
-                    <div className="text-description">
+                    <p className="title-product custom-font"><strong>Laptop gaming Gigabyte G6 KF H3VN853SH</strong></p>
+                    <p className="price custom-font">29.990.000₫</p>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
+                    <div className="text-description custom-font">
                         <strong>Kích Thước Màn Hình:</strong><br></br>
                         <strong>Tấm Nền:</strong><br></br>
                         <strong>Loại Độ Phân Giải:</strong><br></br>

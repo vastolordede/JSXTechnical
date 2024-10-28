@@ -19,7 +19,7 @@ function PC() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>PC GVN x AORUS XTREME ICE (Intel i9-14900K/ VGA RTX 4080 Super)</strong></p>
                     <p className="price">150.740.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>CPU:</strong>Intel Core i9 14900K / Turbo up to 6.0GHz / 24 Nhân 32 Luồng / 36MB / LGA 1700<br></br>
                         <strong>RAM:</strong>G.Skill Trident Z5 Royal RGB 64GB (2x32GB) 6400 DDR5 Silver<br></br>

@@ -19,7 +19,7 @@ function Monitor() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>Màn hình ViewSonic VX2882-4KP 28" IPS 4K 150Hz HDR10 USBC</strong></p>
                     <p className="price">15.990.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>Kích Thước Màn Hình:</strong>28 Inch<br></br>
                         <strong>Tấm Nền:</strong>IPS<br></br>

@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import img from '../img/Remove-bg.ai_1729615117142.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGhost } from "@fortawesome/free-solid-svg-icons";
+
 function Footer() {
     return (
         <div className="footer-box">
@@ -9,21 +12,21 @@ function Footer() {
                     {/*1*/}
                     <div className="row">
                         <div className="col-md-4 footer-content">
-                            <p><strong>Contact</strong></p>
-                            <li className="footer-color">+84 98 765 4321</li>
-                            <li className="footer-color">+84 91 234 5678</li>
-                            <li className="footer-color">InfoTechJSX@Tech.com</li>
-                            <li className="footer-color">123 Phan Chu Trinh Street, Hoan Kiem District, Hanoi, Vietnam</li>
+                            <p className="custom-font-bold"><strong>Contact</strong></p>
+                            <li className="footer-color custom-font">+84 98 765 4321</li>
+                            <li className="footer-color custom-font">+84 91 234 5678</li>
+                            <li className="footer-color custom-font">InfoTechJSX@Tech.com</li>
+                            <li className="footer-color custom-font">123 Phan Chu Trinh Street, Hoan Kiem District, Hanoi, Vietnam</li>
                         </div>
                         <div className="col-md-4 footer-content">
-                            <p><strong>ShotCut</strong></p>
-                            <li><Link to="/" className="nounderline">Home</Link></li>
-                            <li><Link to="/Payment-Instructions" className="nounderline">Home</Link></li>
-                            <li><Link to="/Suggestions" className="nounderline">Suggestions</Link></li>
+                            <p className="custom-font-bold"><strong>ShotCut</strong></p>
+                            <li className="custom-font"><Link to="/" className="nounderline">Home</Link></li>
+                            <li className="custom-font"><Link to="/Payment-Instructions" className="nounderline">Payment Instructions</Link></li>
+                            <li className="custom-font"><Link to="/Suggestions" className="nounderline">Suggestions</Link></li>
                         </div>
                         <div className="col-md-4 footer-content">
-                            <p><strong>Infomation</strong></p>
-                            <p className="footer-color">JSX Technical is a dynamic company
+                            <p className="custom-font-bold"><strong>Infomation</strong></p>
+                            <p className="footer-color custom-font">JSX Technical is a dynamic company
                                 specializing in providing advanced technological solutions
                                 for businesses. With a focus on innovation and customer-centric services,
                                 JSX Technical offers a wide range of services, including IT consulting,
@@ -36,7 +39,7 @@ function Footer() {
                     <hr className="footer-hr"></hr>
                     {/*2*/}
                     <li>
-                        <Link to="/"><img src={img} className="footer-logo"></img></Link>
+                    <Link to="/" ><FontAwesomeIcon icon={faGhost} className="Footer-icon" /></Link>
                     </li>
                 </ul>
 

@@ -19,7 +19,7 @@ function Monitor() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>Màn hình ASUS VY249HF-R 24" IPS 100Hz viền mỏng</strong></p>
                     <p className="price">2.290.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>Kích Thước Màn Hình:</strong><br></br>
                         <strong>Tấm Nền:</strong><br></br>

@@ -33,9 +33,16 @@ import Monitor5 from "./page/Monitor5";
 import Monitor6 from "./page/Monitor6";
 import LaptopAcer from "./page/Laptop-Acer";
 import LaptopGigabyte from "./page/Laptop-Gigabyte";
+import Warranty from './page/Warranty';
+import Suggestions from './page/Suggestions';
+import Payment from './page/Payment-Instructions';
+import { CartProvider } from "./page/CartContext";
+import Cart from "./page/Cart";
+import Checkout from "./page/Checkout"
 
 function App() {
   return (
+    <CartProvider>
     <Router>
       <div>
         <Navbar />
@@ -71,10 +78,16 @@ function App() {
           <Route path="/Monitor" element={<Monitor />} />
           <Route path="/LaptopAcer" element={<LaptopAcer />} />
           <Route path="/LaptopGigabyte" element={<LaptopGigabyte />} />
+          <Route path="/Warranty-Check" element={<Warranty />} />
+          <Route path="/Suggestions" element={<Suggestions />} />
+          <Route path="/Payment-Instructions" element={<Payment />} />
+          <Route path="/Cart" element={<Cart />} />
+          <Route path="/Check-out" element={<Checkout />} />
         </Routes>
         <Footer />
       </div>
     </Router>
+    </CartProvider>
   );
 }
 export default App;

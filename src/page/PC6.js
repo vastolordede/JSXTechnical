@@ -19,7 +19,7 @@ function PC() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>PC GVN x ASUS Back to Future (Intel i9-14900K/ VGA RTX 4090)</strong></p>
                     <p className="price">142.620.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>CPU:</strong>Intel Core i9 14900K / 4.4GHz Turbo 6.0GHz / 24 Nhân 32 Luồng / 36MB / LGA 1700<br></br>
                         <strong>RAM:</strong>Corsair Dominator Titanium Black 32GB (2x16GB) RGB 6000 DDR5<br></br>

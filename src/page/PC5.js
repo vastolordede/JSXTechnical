@@ -19,7 +19,7 @@ function PC() {
                 <div className="card-text-product">
                     <p className="title-product"><strong>PC GVN x Corsair iCUE (Intel i7-14700F/ VGA RTX 4070Ti Super)</strong></p>
                     <p className="price">68.700.000₫</p>
-                    <button className="font addcart addcart-button">Add To cart</button>
+                    <button className="font addcart addcart-button buy-button-product">Add To cart</button>
                     <div className="text-description">
                         <strong>CPU:</strong>Intel Core i7 14700F / Turbo up to 5.4GHz / 20 Nhân 28 Luồng / 33MB / LGA 1700<br></br>
                         <strong>RAM:</strong>Corsair Vengeance RGB White 32GB (2x16GB) 5600 DDR5<br></br>
