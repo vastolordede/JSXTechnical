@@ -30,6 +30,14 @@
     align-items: center;
     margin: 0px 20px 0px 10px;
 }
+.slider-img {
+    
+
+}
+/* Chỉ hiển thị ảnh hiện tại */
+.slider-img.active {
+    opacity: 1;
+}
 .menu-box{
     padding: 0px;
     background-color:#1e1927;
@@ -676,11 +684,21 @@
 }
 .Cart-checkout-button:hover{
     border-radius: 15px;
-    width: 70px;
-    height: 25px;
-    margin-left: 245px;
+    width: 130px;
+    height: 30px;
+    margin-left: 225px;
     margin-top: 20px;
     background-color:#2f4858;
+    color: #fff;
+    border: none;
+}
+.Cart-checkout-popup-button{
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    margin-left: 145px;
+    font-size: 20px;
+    background-color:#00394a;
     color: #fff;
     border: none;
 }
@@ -738,6 +756,9 @@ ul{
 .slider-box{
     margin-left: 400px;
 }
+.list{
+    transition: 1s;
+}
 .top-border-slider{
     position: absolute;
     width: 700px;
@@ -755,6 +776,28 @@ ul{
     border-right: 3px solid #00394a;
     border-left: 3px solid #00394a;
     margin: -15px 0px 0px 0px;
+}
+.bg-checkout-popup{
+   background-color: #1e1927;
+   color: #fff;
+   width: 500px;
+   height: 500px;
+   margin-top: -400px;
+   margin-left: 30px;
+   border-radius: 15px;
+   position: fixed;
+   z-index: 1000;
+   padding: 100px 30px 0px 30px;
+}
+.closebtn{
+    border: none;
+    background-color: #2f4858;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin: -90px 0px 0px 420px;
 }
 .footer-box{
     background-color:#1e1927;

@@ -20,6 +20,7 @@ function Suggestions() {
                                 type="text"
                                 className="form-control"
                                 placeholder="Enter Full name"
+                                autoFocus   
                             />
                         </div>
                         {/*Number*/}

@@ -12,27 +12,27 @@ function payment() {
                 <div className="top-border-Laptop-content"></div>
 
                 <div className="box-home-Payment">
-                    <a href="#" className="payment-font"><div className="Payment-link">
-                        <a href="#" className="payment-font"><p className="payment-font">Thanh Toán<br></br> Chuyển Khoản</p></a><hr className="payment-hr"></hr>
+                    <a href="#p1" className="payment-font"><div className="Payment-link">
+                        <a href="#p1" className="payment-font"><p className="payment-font">Thanh Toán<br></br> Chuyển Khoản</p></a><hr className="payment-hr"></hr>
                         <p className="p-Payment">Quý khách có thể chuyển khoản trực tiếp đến tài khoản của JSX Technical</p>
                     </div></a>
                 </div>
                 <div className="box-home-Payment">
-                    <a href="#" className="payment-font"><div className="Payment-link">
-                        <a href="#" className="payment-font"><p className="payment-font">Thanh Toán<br></br> Trực Tiếp</p></a><hr className="payment-hr"></hr>
+                    <a href="#p2" className="payment-font"><div className="Payment-link">
+                        <a href="#p2" className="payment-font"><p className="payment-font">Thanh Toán<br></br> Trực Tiếp</p></a><hr className="payment-hr"></hr>
                         <p className="p-Payment">Quý khách có thể trực tiếp đến Showroom của JSX Technical để thanh toán</p>
                     </div></a>
                 </div>
                 <div className="box-home-Payment">
-                    <a href="#" className="payment-font"><div className="Payment-link">
-                        <a href="#" className="payment-font"><p className="payment-font">Thanh Toán<br></br> Khi Nhận Hàng</p></a><hr className="payment-hr"></hr>
+                    <a href="#p3" className="payment-font"><div className="Payment-link">
+                        <a href="#p3" className="payment-font"><p className="payment-font">Thanh Toán<br></br> Khi Nhận Hàng</p></a><hr className="payment-hr"></hr>
                         <p className="p-Payment">Quý khách có thể thanh toán cho nhân viên vận chuyển của JSX Technical hoặc đơn vị vận chuyển</p>
                     </div></a>
                 </div>
 
             </div>
             <div className="bottom-border-payment-content"></div>
-            <div className="Payment1 w-100">
+            <div className="Payment1 w-100" id="p1">
                 <h1>Thanh Toán Chuyển Khoản</h1>
             <p>Quý khách có thể thanh toán bằng cách chuyển khoản qua số tài khoản của JSX Technical tại ngân hàng dưới đây:</p>
             <div className="box-payment1">
@@ -42,11 +42,11 @@ function payment() {
                 <p className="bank">Số tài khoản: 099999999</p>
             </div>
             </div>
-            <div className="Payment2 w-100">
+            <div className="Payment2 w-100" id="p2">
                 <h1>Thanh Toán Trực tiếp</h1>
             <p>Quý khách có thể thanh toán tại Showroom JSX Technical có mặt ở các tỉnh thành bằng cách quẹt thẻ</p>
             </div>
-            <div className="Payment3 w-100">
+            <div className="Payment3 w-100" id="p3">
                 <h1>Thanh Toán Khi Nhận Hàng</h1>
                 <div className="box-payment3">
                 <p>Khi quý khách hàng nhận hàng sẽ thanh toán tổng giá trị đơn hàng hoặc

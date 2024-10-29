@@ -39,12 +39,14 @@ import Payment from './page/Payment-Instructions';
 import { CartProvider } from "./page/CartContext";
 import Cart from "./page/Cart";
 import Checkout from "./page/Checkout"
+import ScrollToTop from "./inc/ScrolltoTop";
 
 function App() {
   return (
     <CartProvider>
     <Router>
       <div>
+      <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

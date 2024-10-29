@@ -42,11 +42,14 @@ function Slider() {
     return (
         <div className="slider-box">
             <div className="top-border-slider"></div>
+            <div className="list">
             <img className="slider-img" src={images[slideInDex].src} alt={images[slideInDex].alt}></img>
                 <button className="slider-left" onClick={nextSlide}><FontAwesomeIcon icon={faChevronLeft} /></button>
                 <button className="slider-right" onClick={backSlide}><FontAwesomeIcon icon={faChevronRight} /></button>
+                </div>
                 <div className="bottom-border-slider"></div>
         </div>
+        
     );
 }
 export default Slider;

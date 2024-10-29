@@ -3,8 +3,14 @@ import { useCart } from "./CartContext";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import Popup from "../inc/Check-out-Pop-up";
 
 function Checkout(){
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+    const openPopup = () => setIsPopupOpen(true);
+    const closePopup = () => setIsPopupOpen(false);
+
     return(
         <div className="bg-checkout">
             <div className="top-border-checkout"></div>
@@ -17,6 +23,7 @@ function Checkout(){
                                 type="text"
                                 className="form-control"
                                 placeholder="Enter Full name"
+                                autoFocus   
                             />
                         </div>
                         {/*Number*/}
@@ -38,7 +45,8 @@ function Checkout(){
                             />
                         </div>
                         <div >
-                            <button className="Cart-checkout-button">Complete Buy</button>
+                            <button className="Cart-checkout-button" onClick={openPopup}>Complete Buy</button>
+                            <Popup isOpen={isPopupOpen} onClose={closePopup} />
                         </div>
                     </div>
                     <div className="bottom-border-checkout"></div>
