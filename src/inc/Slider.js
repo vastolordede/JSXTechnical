@@ -39,6 +39,9 @@ function Slider() {
         return () => clearInterval(inteval)
 
     }, []);
+
+   
+
     return (
         <div className="slider-box">
             <div className="top-border-slider"></div>
@@ -46,6 +49,19 @@ function Slider() {
             <img className="slider-img" src={images[slideInDex].src} alt={images[slideInDex].alt}></img>
                 <button className="slider-left" onClick={nextSlide}><FontAwesomeIcon icon={faChevronLeft} /></button>
                 <button className="slider-right" onClick={backSlide}><FontAwesomeIcon icon={faChevronRight} /></button>
+                <div className="c-i">
+                <ol className="carousel-indicators">
+                {images.map((_, index) => (
+                    <li
+                        key={index}
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to={index}
+                        className={index === slideInDex ? "active" : ""}
+                        onClick={() => setSlideInDex(index)} // Chuyển đến slide tương ứng khi nhấp
+                    ></li>
+                ))}
+            </ol>
+            </div>
                 </div>
                 <div className="bottom-border-slider"></div>
         </div>
